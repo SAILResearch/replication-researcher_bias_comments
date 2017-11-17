@@ -25,7 +25,7 @@ month={Nov},
 ## 1) Download dataset and scripts
 
 - Download [misc.R](resources/misc.R) 
-- Download [rawdata.csv](resources/rawdata.R), which is a copy version of https://codefeedback.cs.herts.ac.uk/mlbias/rawdata.csv
+- Download [rawdata.csv](resources/rawdata.csv), which is a copy version of https://codefeedback.cs.herts.ac.uk/mlbias/rawdata.csv
 
 ## 2) Load miscellaneous functions
 
@@ -128,7 +128,7 @@ ggplot( results ,aes(x=variable,y=value,fill=ranking )) + geom_boxplot() + theme
     guides(fill=guide_legend(title="Position in the model formulas"))
 ```
 
-![](resources/partial-eta-square-values.png")
+![](resources/partial-eta-square-values.png)
 
 ## 5) Mitigating the Collinearity
 
